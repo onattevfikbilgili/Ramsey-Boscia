@@ -10,7 +10,7 @@ const MOI = MathOptInterface
 n = parse(Int, ARGS[1])
 r = parse(Int, ARGS[2])
 s = parse(Int, ARGS[3])
-t = parse(Float, ARGS[4])
+t = parse(Float64, ARGS[4])
 
 const r_edges = r * (r - 1) ÷ 2
 const s_edges = s * (s - 1) ÷ 2
